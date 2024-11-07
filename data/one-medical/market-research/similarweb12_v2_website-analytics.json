@@ -1,0 +1,319 @@
+{
+  "status": "success",
+  "interests": {
+    "interestedWebsitesTotalCount": 0,
+    "topInterestedWebsites": [],
+    "topInterestedTopics": [],
+    "topInterestedCategories": []
+  },
+  "competitors": {
+    "topSimilarityCompetitors": []
+  },
+  "searchesSource": {
+    "organicSearchShare": 1,
+    "paidSearchShare": 0,
+    "keywordsTotalCount": 0,
+    "topKeywords": []
+  },
+  "incomingReferrals": {
+    "referralSitesTotalCount": 0,
+    "topReferralSites": [],
+    "topIncomingCategories": []
+  },
+  "adsSource": {
+    "adsSitesTotalCount": 0,
+    "adsNetworksTotalCount": 1,
+    "topAdsSites": []
+  },
+  "socialNetworksSource": {
+    "topSocialNetworks": [],
+    "socialNetworksTotalCount": 0
+  },
+  "outgoingReferrals": {
+    "outgoingSitesTotalCount": 0,
+    "topOutgoingSites": [],
+    "topOutgoingCategories": []
+  },
+  "compareCompetitor": null,
+  "technologies": {
+    "categories": [
+      {
+        "categoryId": "advertising",
+        "topTechName": "DoubleClick",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=239",
+        "technologiesTotalCount": 2
+      },
+      {
+        "categoryId": "conversion_and_analytics",
+        "topTechName": "Google Analytics",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=1",
+        "technologiesTotalCount": 1
+      },
+      {
+        "categoryId": "email_services",
+        "topTechName": "Microsoft Exchange Online",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=1249",
+        "technologiesTotalCount": 1
+      },
+      {
+        "categoryId": "marketing",
+        "topTechName": "Google Marketing Platform",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=5492",
+        "technologiesTotalCount": 1
+      }
+    ],
+    "categoriesTotalCount": 6,
+    "technologiesTotalCount": 7
+  },
+  "recentAds": {
+    "recentAds": [],
+    "isMoreAds": false
+  },
+  "snapshotDate": "2024-10-01T00:00:00+00:00",
+  "domain": "one-medical.com.au",
+  "icon": "https://site-images.similarcdn.com/image?url=one-medical.com.au&t=2&s=1&h=1ba003ab81377eef3d8ebe994f4edcbf2afea274b1b4a144172676ff521f23c7",
+  "previewDesktop": "https://site-images.similarcdn.com/image?url=one-medical.com.au&t=1&s=1&h=1ba003ab81377eef3d8ebe994f4edcbf2afea274b1b4a144172676ff521f23c7",
+  "previewMobile": "https://site-images.similarcdn.com/image?url=one-medical.com.au&t=4&s=1&h=1ba003ab81377eef3d8ebe994f4edcbf2afea274b1b4a144172676ff521f23c7",
+  "isInvalidTrafficData": false,
+  "domainGaStatus": 0,
+  "isDataFromGaHighlyDiscrepant": false,
+  "isDataFromGa": false,
+  "categoryId": "",
+  "overview": {
+    "description": "we provide high-quality telehealth services to care for your mind and body",
+    "globalRank": 10894298,
+    "globalRankChange": 10651991,
+    "countryAlpha2Code": "AU",
+    "countryUrlCode": "australia",
+    "countryRank": 621780,
+    "countryRankChange": 214509,
+    "categoryRank": null,
+    "categoryRankChange": 0,
+    "visitsTotalCount": 1509,
+    "bounceRate": 0.4050504455911922,
+    "pagesPerVisit": 1.0268377156717006,
+    "visitsAvgDurationFormatted": "",
+    "companyFeedbackRecaptcha": "6LfEq1gUAAAAACEE4w7Zek8GEmBooXMMWDpBjI6r",
+    "companyName": null,
+    "companyYearFounded": null,
+    "companyHeadquarterCountryCode": null,
+    "companyHeadquarterStateCode": null,
+    "companyHeadquarterCity": null,
+    "companyEmployeesMin": null,
+    "companyEmployeesMax": null,
+    "companyRevenueMin": null,
+    "companyRevenueMax": null,
+    "companyCategoryId": "",
+    "companyRevenueCurrency": null,
+    "companyParentDomain": null
+  },
+  "traffic": {
+    "visitsTotalCount": 1509,
+    "visitsTotalCountChange": 1.8152985074626866,
+    "bounceRate": 0.4050504455911922,
+    "pagesPerVisit": 1.0268377156717006,
+    "visitsAvgDurationFormatted": "",
+    "history": [
+      {
+        "date": "2024-08-01T00:00:00",
+        "visits": 905
+      },
+      {
+        "date": "2024-09-01T00:00:00",
+        "visits": 536
+      },
+      {
+        "date": "2024-10-01T00:00:00",
+        "visits": 1509
+      }
+    ],
+    "competitors": [
+      {
+        "domain": "one-medical.com.au",
+        "icon": "https://site-images.similarcdn.com/image?url=one-medical.com.au&t=2&s=1&h=1ba003ab81377eef3d8ebe994f4edcbf2afea274b1b4a144172676ff521f23c7",
+        "isDataFromGa": false,
+        "visits": 1509
+      }
+    ]
+  },
+  "trafficSources": {
+    "directVisitsShare": 0.3279248671511738,
+    "referralVisitsShare": 0.13149615817018048,
+    "organicSearchVisitsShare": 0.4696424606778154,
+    "paidSearchVisitsShare": null,
+    "socialNetworksVisitsShare": 0.045929284444746345,
+    "mailVisitsShare": 0.004064574488562637,
+    "adsVisitsShare": 0.009688573085630437,
+    "topCompetitorInsight": {
+      "domain": "",
+      "source": "",
+      "share": 0,
+      "icon": ""
+    }
+  },
+  "ranking": {
+    "globalRankCompetitors": [
+      {
+        "rank": 10894296,
+        "domain": "city-ir.com",
+        "icon": "https://site-images.similarcdn.com/image?url=city-ir.com&t=2&s=1&h=cb3c724842b251d81522e61b2c9690d6e7ef449b14199171025340deda421f3f"
+      },
+      {
+        "rank": 10894297,
+        "domain": "xn--mgbaj4a2fdgosdqg.com",
+        "icon": "https://site-images.similarcdn.com/image?url=xn--mgbaj4a2fdgosdqg.com&t=2&s=1&h=acb49e9ce7032be9f441b83f5cc889de60efa3bd352789e2176a2391870d3c32"
+      },
+      {
+        "rank": 10894298,
+        "domain": "one-medical.com.au",
+        "icon": "https://site-images.similarcdn.com/image?url=one-medical.com.au&t=2&s=1&h=1ba003ab81377eef3d8ebe994f4edcbf2afea274b1b4a144172676ff521f23c7"
+      },
+      {
+        "rank": 10894299,
+        "domain": "gregoryrguy.com",
+        "icon": "https://site-images.similarcdn.com/image?url=gregoryrguy.com&t=2&s=1&h=87b31303785d47bf6ae565baba40d2cb8fea39bb63ef6b619f186377a487c848"
+      },
+      {
+        "rank": 10894300,
+        "domain": "cityplumbingandelectric.com",
+        "icon": "https://site-images.similarcdn.com/image?url=cityplumbingandelectric.com&t=2&s=1&h=f7b5dffd2c17096812f0816135002ab58fb38457e6f4d0d954d5fd01a31a9857"
+      }
+    ],
+    "globalRankHistory": [
+      {
+        "date": "2024-08-01T00:00:00+00:00",
+        "rank": 14897080
+      },
+      {
+        "date": "2024-09-01T00:00:00+00:00",
+        "rank": 21546289
+      },
+      {
+        "date": "2024-10-01T00:00:00+00:00",
+        "rank": 10894298
+      }
+    ],
+    "countryRankCompetitors": [
+      {
+        "rank": 621778,
+        "domain": "rbl.net",
+        "icon": "https://site-images.similarcdn.com/image?url=rbl.net&t=2&s=1&h=58d36fc672a5b7e18e0ed1c1304f6350878433fa17c0f5074f4493855c787d22"
+      },
+      {
+        "rank": 621779,
+        "domain": "silldry.com",
+        "icon": "https://site-images.similarcdn.com/image?url=silldry.com&t=2&s=1&h=76cf2b8633e144baf4eb6344d39fee253181e51d5ba21fe1e70d544f98169642"
+      },
+      {
+        "rank": 621780,
+        "domain": "one-medical.com.au",
+        "icon": "https://site-images.similarcdn.com/image?url=one-medical.com.au&t=2&s=1&h=1ba003ab81377eef3d8ebe994f4edcbf2afea274b1b4a144172676ff521f23c7"
+      },
+      {
+        "rank": 621781,
+        "domain": "aife.edu.au",
+        "icon": "https://site-images.similarcdn.com/image?url=aife.edu.au&t=2&s=1&h=953697c52ed12d58148e6263255af43b9ef21970e1b78607af68339a66f058a1"
+      },
+      {
+        "rank": 621782,
+        "domain": "lmsdefense.com",
+        "icon": "https://site-images.similarcdn.com/image?url=lmsdefense.com&t=2&s=1&h=ae1b41f63cef0b9d92e6f0f34c2e3d8345091e1e692aaa59f894def943050ff5"
+      }
+    ],
+    "countryRankHistory": [
+      {
+        "date": "2024-08-01T00:00:00+00:00",
+        "rank": 783987
+      },
+      {
+        "date": "2024-09-01T00:00:00+00:00",
+        "rank": 836289
+      },
+      {
+        "date": "2024-10-01T00:00:00+00:00",
+        "rank": 621780
+      }
+    ],
+    "categoryRankCompetitors": [],
+    "categoryRankHistory": [
+      {
+        "date": "2024-08-01T00:00:00+00:00",
+        "rank": 0
+      },
+      {
+        "date": "2024-09-01T00:00:00+00:00",
+        "rank": 0
+      },
+      {
+        "date": "2024-10-01T00:00:00+00:00",
+        "rank": 0
+      }
+    ],
+    "globalRank": 10894298,
+    "globalRankPrev": 21546289,
+    "globalRankChange": 10651991,
+    "categoryRank": null,
+    "categoryRankPrev": null,
+    "categoryRankChange": 0,
+    "countryRank": 621780,
+    "countryRankPrev": 836289,
+    "countryRankChange": 214509,
+    "countryAlpha2Code": "AU",
+    "countryUrlCode": "australia"
+  },
+  "demographics": {
+    "ageDistribution": [
+      {
+        "minAge": 18,
+        "maxAge": 24,
+        "value": 0
+      },
+      {
+        "minAge": 25,
+        "maxAge": 34,
+        "value": 0
+      },
+      {
+        "minAge": 35,
+        "maxAge": 44,
+        "value": 0
+      },
+      {
+        "minAge": 45,
+        "maxAge": 54,
+        "value": 0
+      },
+      {
+        "minAge": 55,
+        "maxAge": 64,
+        "value": 0
+      },
+      {
+        "minAge": 65,
+        "maxAge": null,
+        "value": 0
+      }
+    ],
+    "genderDistribution": {
+      "male": null,
+      "female": null
+    }
+  },
+  "geography": {
+    "countriesTotalCount": 2,
+    "topCountriesTraffics": [
+      {
+        "countryAlpha2Code": "AU",
+        "countryUrlCode": "australia",
+        "visitsShare": 0.5965189427783182,
+        "visitsShareChange": 1.723763742501752
+      },
+      {
+        "countryAlpha2Code": "NG",
+        "countryUrlCode": "",
+        "visitsShare": 0.40348105722168187,
+        "visitsShareChange": null
+      }
+    ]
+  }
+}

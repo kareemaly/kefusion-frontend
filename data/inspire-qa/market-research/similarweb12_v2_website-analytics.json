@@ -1,0 +1,467 @@
+{
+  "status": "success",
+  "interests": {
+    "interestedWebsitesTotalCount": 0,
+    "topInterestedWebsites": [],
+    "topInterestedTopics": [],
+    "topInterestedCategories": []
+  },
+  "competitors": {
+    "topSimilarityCompetitors": [
+      {
+        "domain": "mmt-institute.com",
+        "icon": "https://site-images.similarcdn.com/image?url=mmt-institute.com&t=2&s=1&h=330deeda69d2fdf59ca30dbc5e5965905592e7adfd2afceb83b07c3dbdb3e977",
+        "visitsTotalCount": 1124,
+        "categoryId": "business_and_consumer_services/business_services",
+        "categoryRank": 48281,
+        "affinity": 1,
+        "isDataFromGa": false
+      },
+      {
+        "domain": "amcertinst.org",
+        "icon": "https://site-images.similarcdn.com/image?url=amcertinst.org&t=2&s=1&h=8f77838a0c34015d9545453937aafedda47a7572c20b475fb1485837ae81176e",
+        "visitsTotalCount": 3786,
+        "categoryId": "business_and_consumer_services/business_services",
+        "categoryRank": 33582,
+        "affinity": 0.7589299490087692,
+        "isDataFromGa": false
+      },
+      {
+        "domain": "theknowledgeacademy.com",
+        "icon": "https://site-images.similarcdn.com/image?url=theknowledgeacademy.com&t=2&s=1&h=594077054f1f7f71aaea5882c21ad8f4df7da75d5bed47c0fe87871e4235cc9c",
+        "visitsTotalCount": 1169005,
+        "categoryId": "business_and_consumer_services/business_services",
+        "categoryRank": 376,
+        "affinity": 0.6071417807208208,
+        "isDataFromGa": false
+      },
+      {
+        "domain": "enertechqatar.com",
+        "icon": "https://site-images.similarcdn.com/image?url=enertechqatar.com&t=2&s=1&h=55be7b4c6b3b15b2304cc5d9eba7780a6ffa8d4286dc3595070e4406d55d438e",
+        "visitsTotalCount": 19503,
+        "categoryId": "heavy_industry_and_engineering/energy_industry",
+        "categoryRank": 4661,
+        "affinity": 0.2534488480926702,
+        "isDataFromGa": false
+      },
+      {
+        "domain": "icontrainingcentre.qa",
+        "icon": "https://site-images.similarcdn.com/image?url=icontrainingcentre.qa&t=2&s=1&h=774bd35781ded1219981bafb5c62ed0b2cf3336da190c5ba62bc11475d4d7c1d",
+        "visitsTotalCount": 962,
+        "categoryId": "",
+        "categoryRank": null,
+        "affinity": 0.2410740787013088,
+        "isDataFromGa": false
+      },
+      {
+        "domain": "closecareer.com",
+        "icon": "https://site-images.similarcdn.com/image?url=closecareer.com&t=2&s=1&h=d71ffaf64f763477466da357339c32ef4b4843930cf5fc49305e52c05f9bdd44",
+        "visitsTotalCount": 7004,
+        "categoryId": "jobs_and_career/jobs_and_employment",
+        "categoryRank": 33489,
+        "affinity": 0.2231699003958982,
+        "isDataFromGa": false
+      }
+    ]
+  },
+  "searchesSource": {
+    "organicSearchShare": 1,
+    "paidSearchShare": 0,
+    "keywordsTotalCount": 61,
+    "topKeywords": [
+      {
+        "name": "cscm qatar",
+        "estimatedValue": 7142,
+        "volume": 50,
+        "cpc": null
+      },
+      {
+        "name": "acca course in qatar",
+        "estimatedValue": 917,
+        "volume": 50,
+        "cpc": null
+      },
+      {
+        "name": "windhover management coaching in qatar reviews",
+        "estimatedValue": 768,
+        "volume": null,
+        "cpc": null
+      },
+      {
+        "name": "fire protection engineering school in qatar",
+        "estimatedValue": 432,
+        "volume": 40,
+        "cpc": null
+      },
+      {
+        "name": "amadeus certificate qatar",
+        "estimatedValue": 424,
+        "volume": null,
+        "cpc": null
+      }
+    ]
+  },
+  "incomingReferrals": {
+    "referralSitesTotalCount": 0,
+    "topReferralSites": [],
+    "topIncomingCategories": []
+  },
+  "adsSource": {
+    "adsSitesTotalCount": 0,
+    "adsNetworksTotalCount": 1,
+    "topAdsSites": []
+  },
+  "socialNetworksSource": {
+    "topSocialNetworks": [],
+    "socialNetworksTotalCount": 0
+  },
+  "outgoingReferrals": {
+    "outgoingSitesTotalCount": 0,
+    "topOutgoingSites": [],
+    "topOutgoingCategories": []
+  },
+  "compareCompetitor": null,
+  "technologies": {
+    "categories": [
+      {
+        "categoryId": "widget",
+        "topTechName": "Twemoji",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=3218",
+        "technologiesTotalCount": 10
+      },
+      {
+        "categoryId": "advertising",
+        "topTechName": "DoubleClick",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=239",
+        "technologiesTotalCount": 6
+      },
+      {
+        "categoryId": "payment_and_currencies",
+        "topTechName": "Cart Functionality",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=2901",
+        "technologiesTotalCount": 5
+      },
+      {
+        "categoryId": "social",
+        "topTechName": "Facebook Connect",
+        "topTechIconUrl": "https://s3.amazonaws.com/s3-static-us-east-1.similarweb.com/technographics/id=732",
+        "technologiesTotalCount": 4
+      }
+    ],
+    "categoriesTotalCount": 14,
+    "technologiesTotalCount": 39
+  },
+  "recentAds": {
+    "recentAds": [],
+    "isMoreAds": false
+  },
+  "snapshotDate": "2024-10-01T00:00:00+00:00",
+  "domain": "inspire.qa",
+  "icon": "https://site-images.similarcdn.com/image?url=inspire.qa&t=2&s=1&h=757bea0a37bf0aceb51e97a34ecf3ee95842620b644b8c1d3066c701c6927000",
+  "previewDesktop": "https://site-images.similarcdn.com/image?url=inspire.qa&t=1&s=1&h=757bea0a37bf0aceb51e97a34ecf3ee95842620b644b8c1d3066c701c6927000",
+  "previewMobile": "https://site-images.similarcdn.com/image?url=inspire.qa&t=4&s=1&h=757bea0a37bf0aceb51e97a34ecf3ee95842620b644b8c1d3066c701c6927000",
+  "isInvalidTrafficData": false,
+  "domainGaStatus": 0,
+  "isDataFromGaHighlyDiscrepant": false,
+  "isDataFromGa": false,
+  "categoryId": "business_and_consumer_services/business_services",
+  "overview": {
+    "description": "welcome to inspire management training centreunlocking potential, transforming teams at inspire, we are dedicated to shaping professionals for success in today's dynamic and competitive landscape. with an expansive array of courses and services tailored to meet the diverse needs of industries worldwide, we stand as your partner in learning and development. products search browse training",
+    "globalRank": 359309,
+    "globalRankChange": -57148,
+    "countryAlpha2Code": "QA",
+    "countryUrlCode": "qatar",
+    "countryRank": 482,
+    "countryRankChange": -50,
+    "categoryRank": 2,
+    "categoryRankChange": 0,
+    "visitsTotalCount": 29930,
+    "bounceRate": 0.3382263812227771,
+    "pagesPerVisit": 49.684832904694105,
+    "visitsAvgDurationFormatted": "00:39:43",
+    "companyFeedbackRecaptcha": "6LfEq1gUAAAAACEE4w7Zek8GEmBooXMMWDpBjI6r",
+    "companyName": null,
+    "companyYearFounded": null,
+    "companyHeadquarterCountryCode": null,
+    "companyHeadquarterStateCode": null,
+    "companyHeadquarterCity": null,
+    "companyEmployeesMin": null,
+    "companyEmployeesMax": null,
+    "companyRevenueMin": null,
+    "companyRevenueMax": null,
+    "companyCategoryId": "",
+    "companyRevenueCurrency": null,
+    "companyParentDomain": null
+  },
+  "traffic": {
+    "visitsTotalCount": 29930,
+    "visitsTotalCountChange": -0.10980905359585985,
+    "bounceRate": 0.3382263812227771,
+    "pagesPerVisit": 49.684832904694105,
+    "visitsAvgDurationFormatted": "00:39:43",
+    "history": [
+      {
+        "date": "2024-08-01T00:00:00",
+        "visits": 29998
+      },
+      {
+        "date": "2024-09-01T00:00:00",
+        "visits": 33622
+      },
+      {
+        "date": "2024-10-01T00:00:00",
+        "visits": 29930
+      }
+    ],
+    "competitors": [
+      {
+        "domain": "inspire.qa",
+        "icon": "https://site-images.similarcdn.com/image?url=inspire.qa&t=2&s=1&h=757bea0a37bf0aceb51e97a34ecf3ee95842620b644b8c1d3066c701c6927000",
+        "isDataFromGa": false,
+        "visits": 29930
+      },
+      {
+        "domain": "mmt-institute.com",
+        "icon": "https://site-images.similarcdn.com/image?url=mmt-institute.com&t=2&s=1&h=330deeda69d2fdf59ca30dbc5e5965905592e7adfd2afceb83b07c3dbdb3e977",
+        "isDataFromGa": false,
+        "visits": 1124
+      },
+      {
+        "domain": "amcertinst.org",
+        "icon": "https://site-images.similarcdn.com/image?url=amcertinst.org&t=2&s=1&h=8f77838a0c34015d9545453937aafedda47a7572c20b475fb1485837ae81176e",
+        "isDataFromGa": false,
+        "visits": 3786
+      },
+      {
+        "domain": "theknowledgeacademy.com",
+        "icon": "https://site-images.similarcdn.com/image?url=theknowledgeacademy.com&t=2&s=1&h=594077054f1f7f71aaea5882c21ad8f4df7da75d5bed47c0fe87871e4235cc9c",
+        "isDataFromGa": false,
+        "visits": 1169005
+      },
+      {
+        "domain": "enertechqatar.com",
+        "icon": "https://site-images.similarcdn.com/image?url=enertechqatar.com&t=2&s=1&h=55be7b4c6b3b15b2304cc5d9eba7780a6ffa8d4286dc3595070e4406d55d438e",
+        "isDataFromGa": false,
+        "visits": 19503
+      }
+    ]
+  },
+  "trafficSources": {
+    "directVisitsShare": 0.3051206512087489,
+    "referralVisitsShare": 0.09430171696746309,
+    "organicSearchVisitsShare": 0.5916937220297421,
+    "paidSearchVisitsShare": null,
+    "socialNetworksVisitsShare": 0.006045797911037994,
+    "mailVisitsShare": 0.000450523872538245,
+    "adsVisitsShare": 0.0023388036607036836,
+    "topCompetitorInsight": {
+      "domain": "mmt-institute.com",
+      "source": "SocialNetworksVisitsShare",
+      "share": 0.061391778705270045,
+      "icon": "https://site-images.similarcdn.com/image?url=mmt-institute.com&t=2&s=1&h=330deeda69d2fdf59ca30dbc5e5965905592e7adfd2afceb83b07c3dbdb3e977"
+    }
+  },
+  "ranking": {
+    "globalRankCompetitors": [
+      {
+        "rank": 359307,
+        "domain": "magnumresearch.com",
+        "icon": "https://site-images.similarcdn.com/image?url=magnumresearch.com&t=2&s=1&h=9456d33e64bbea12b13d4abef6bcdc7150d3650ce3fd42d99c5e787daca1d083"
+      },
+      {
+        "rank": 359308,
+        "domain": "manukadoctor.co.uk",
+        "icon": "https://site-images.similarcdn.com/image?url=manukadoctor.co.uk&t=2&s=1&h=29f4e1a3e18266684eb06d9d0d2f204acad4e809c3fa0dd86bc8d7b8a893baf1"
+      },
+      {
+        "rank": 359309,
+        "domain": "inspire.qa",
+        "icon": "https://site-images.similarcdn.com/image?url=inspire.qa&t=2&s=1&h=757bea0a37bf0aceb51e97a34ecf3ee95842620b644b8c1d3066c701c6927000"
+      },
+      {
+        "rank": 359310,
+        "domain": "j200mhits.wiki",
+        "icon": "https://site-images.similarcdn.com/image?url=j200mhits.wiki&t=2&s=1&h=ccb53520fe00ef1491a15aeac840521957351470e7ee60568fe5314738946b46"
+      },
+      {
+        "rank": 359311,
+        "domain": "xn--jk1b48ohwdkzf15c4ta.com",
+        "icon": "https://site-images.similarcdn.com/image?url=xn--jk1b48ohwdkzf15c4ta.com&t=2&s=1&h=2ed8194b9e3a674b2326f6d7b439783fd2ecf8aedbee2155c22942d374542460"
+      }
+    ],
+    "globalRankHistory": [
+      {
+        "date": "2024-08-01T00:00:00+00:00",
+        "rank": 413505
+      },
+      {
+        "date": "2024-09-01T00:00:00+00:00",
+        "rank": 302161
+      },
+      {
+        "date": "2024-10-01T00:00:00+00:00",
+        "rank": 359309
+      }
+    ],
+    "countryRankCompetitors": [
+      {
+        "rank": 480,
+        "domain": "ndtv.com",
+        "icon": "https://site-images.similarcdn.com/image?url=ndtv.com&t=2&s=1&h=a64ef5f8ee5ac5d4f609eea44ab6b1ea25ea20d6ed0def056a66b3199cf7e638"
+      },
+      {
+        "rank": 481,
+        "domain": "news.yahoo.com",
+        "icon": "https://site-images.similarcdn.com/image?url=news.yahoo.com&t=2&s=1&h=9ca97585dda3aa8c0795827938d219e6453dce2b6a09a7c2c387f949d559cb2b"
+      },
+      {
+        "rank": 482,
+        "domain": "inspire.qa",
+        "icon": "https://site-images.similarcdn.com/image?url=inspire.qa&t=2&s=1&h=757bea0a37bf0aceb51e97a34ecf3ee95842620b644b8c1d3066c701c6927000"
+      },
+      {
+        "rank": 483,
+        "domain": "iherb.com",
+        "icon": "https://site-images.similarcdn.com/image?url=iherb.com&t=2&s=1&h=27a22010d6b3df785bb3f0153580529adeb702d432f5325be081147430976fd8"
+      },
+      {
+        "rank": 484,
+        "domain": "intaj.qa",
+        "icon": "https://site-images.similarcdn.com/image?url=intaj.qa&t=2&s=1&h=55fd10c0147323dc2480b0620e4f57ce02a4d7d7bce4cefa8824b78cd62c85f8"
+      }
+    ],
+    "countryRankHistory": [
+      {
+        "date": "2024-08-01T00:00:00+00:00",
+        "rank": 606
+      },
+      {
+        "date": "2024-09-01T00:00:00+00:00",
+        "rank": 432
+      },
+      {
+        "date": "2024-10-01T00:00:00+00:00",
+        "rank": 482
+      }
+    ],
+    "categoryRankCompetitors": [
+      {
+        "rank": 1,
+        "domain": "shopify.com",
+        "icon": "https://site-images.similarcdn.com/image?url=shopify.com&t=2&s=1&h=67fccc7f5071ff4dfef6eeaf519bd6c730ccd050a0562695b0ac448eb5140a50"
+      },
+      {
+        "rank": 2,
+        "domain": "inspire.qa",
+        "icon": "https://site-images.similarcdn.com/image?url=inspire.qa&t=2&s=1&h=757bea0a37bf0aceb51e97a34ecf3ee95842620b644b8c1d3066c701c6927000"
+      },
+      {
+        "rank": 3,
+        "domain": "theknowledgeacademy.com",
+        "icon": "https://site-images.similarcdn.com/image?url=theknowledgeacademy.com&t=2&s=1&h=594077054f1f7f71aaea5882c21ad8f4df7da75d5bed47c0fe87871e4235cc9c"
+      },
+      {
+        "rank": 4,
+        "domain": "shop.app",
+        "icon": "https://site-images.similarcdn.com/image?url=shop.app&t=2&s=1&h=62f0b2a77216f2c8af0730bca93f5bfe73f725968732ac59b47414a09554ee1b"
+      },
+      {
+        "rank": 5,
+        "domain": "stepes.com",
+        "icon": "https://site-images.similarcdn.com/image?url=stepes.com&t=2&s=1&h=137eb4a93fcbe7f6e69ae70a134409b1f9fdc96cbfda11d72feed745508fee7c"
+      }
+    ],
+    "categoryRankHistory": [
+      {
+        "date": "2024-08-01T00:00:00+00:00",
+        "rank": 2
+      },
+      {
+        "date": "2024-09-01T00:00:00+00:00",
+        "rank": 2
+      },
+      {
+        "date": "2024-10-01T00:00:00+00:00",
+        "rank": 2
+      }
+    ],
+    "globalRank": 359309,
+    "globalRankPrev": 302161,
+    "globalRankChange": -57148,
+    "categoryRank": 2,
+    "categoryRankPrev": 2,
+    "categoryRankChange": 0,
+    "countryRank": 482,
+    "countryRankPrev": 432,
+    "countryRankChange": -50,
+    "countryAlpha2Code": "QA",
+    "countryUrlCode": "qatar"
+  },
+  "demographics": {
+    "ageDistribution": [
+      {
+        "minAge": 18,
+        "maxAge": 24,
+        "value": 0
+      },
+      {
+        "minAge": 25,
+        "maxAge": 34,
+        "value": 0
+      },
+      {
+        "minAge": 35,
+        "maxAge": 44,
+        "value": 0
+      },
+      {
+        "minAge": 45,
+        "maxAge": 54,
+        "value": 0
+      },
+      {
+        "minAge": 55,
+        "maxAge": 64,
+        "value": 0
+      },
+      {
+        "minAge": 65,
+        "maxAge": null,
+        "value": 0
+      }
+    ],
+    "genderDistribution": {
+      "male": null,
+      "female": null
+    }
+  },
+  "geography": {
+    "countriesTotalCount": 4,
+    "topCountriesTraffics": [
+      {
+        "countryAlpha2Code": "QA",
+        "countryUrlCode": "qatar",
+        "visitsShare": 0.9553815569572237,
+        "visitsShareChange": -0.1814350859756766
+      },
+      {
+        "countryAlpha2Code": "IN",
+        "countryUrlCode": "india",
+        "visitsShare": 0.023966633656561626,
+        "visitsShareChange": -0.3781352562078405
+      },
+      {
+        "countryAlpha2Code": "AE",
+        "countryUrlCode": "united-arab-emirates",
+        "visitsShare": 0.016307385473227926,
+        "visitsShareChange": 0.3307467533710562
+      },
+      {
+        "countryAlpha2Code": "KE",
+        "countryUrlCode": "",
+        "visitsShare": 0.004344423912986725,
+        "visitsShareChange": null
+      }
+    ]
+  }
+}
