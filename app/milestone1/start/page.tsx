@@ -203,6 +203,7 @@ export default function OneMedicalMilestone() {
               <MilestoneOverview
                 title={milestone.data.title}
                 progress={
+                  /* @ts-ignore */
                   milestone.id === 2 ? undefined : milestone.data.progress
                 }
                 deliverables={
