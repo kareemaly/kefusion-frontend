@@ -2,6 +2,7 @@
 
 import { Presentation } from "@/components/layout/Presentation";
 import { Card } from "@/components/ui/card";
+import { useParams } from "next/dist/client/components/navigation";
 
 const milestoneSlides = [
   {
@@ -124,7 +125,15 @@ const milestoneSlides = [
   },
 ];
 
+const availableProjects = ["one-medical"];
+
 export default function Milestone1Page() {
+  const { project } = useParams();
+
+  if (!availableProjects.includes(project as string)) {
+    return <div>Project not found</div>;
+  }
+
   return (
     <Presentation slides={milestoneSlides} title="One Medical Milestones" />
   );

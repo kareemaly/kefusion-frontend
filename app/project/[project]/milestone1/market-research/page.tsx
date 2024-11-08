@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { use } from "react";
 import { Globe, Users, Laptop, Smartphone, Search } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { StatCard } from "@/components/use-cases/market-research/StatCard";
@@ -19,6 +19,7 @@ import oneMedicalKeywords from "@/data/one-medical/market-research/google-keywor
 import oneMedicalAnalytics from "@/data/one-medical/market-research/similarweb12_v2_website-analytics.json";
 import inspireQaKeywords from "@/data/inspire-qa/market-research/google-keyword-insight1_globalurl.json";
 import inspireQaAnalytics from "@/data/inspire-qa/market-research/similarweb12_v2_website-analytics.json";
+import { useParams } from "next/navigation";
 
 const COLORS = [
   "#0088FE",
@@ -86,7 +87,15 @@ const transformData = (rawAnalytics: any, rawKeywords: any) => {
   };
 };
 
+const availableProjects = ["one-medical", "inspire-qa"];
+
 export default function Dashboard() {
+  const { project } = useParams();
+
+  if (!availableProjects.includes(project as string)) {
+    return <div>Project not found</div>;
+  }
+
   // Transform the data based on tab value
   const getDataForTab = (tabValue: string) => {
     const rawAnalytics =
@@ -136,8 +145,15 @@ export default function Dashboard() {
             value={`#${overview.globalRank.toLocaleString()}`}
             icon={Globe}
             trend={{
-              value: `Improved by ${overview.globalRankChange.toLocaleString()}`,
-              isPositive: overview.globalRankChange > 0,
+              value:
+                overview.globalRankChange < 0
+                  ? `Declined by ${Math.abs(
+                      overview.globalRankChange
+                    ).toLocaleString()} positions`
+                  : `Improved by ${Math.abs(
+                      overview.globalRankChange
+                    ).toLocaleString()} positions`,
+              isPositive: overview.globalRankChange > 0, // Positive change means rank improved (decreased)
             }}
           />
           <StatCard
@@ -145,8 +161,15 @@ export default function Dashboard() {
             value={`#${overview.countryRank.toLocaleString()}`}
             icon={Globe}
             trend={{
-              value: `Improved by ${overview.countryRankChange.toLocaleString()}`,
-              isPositive: overview.countryRankChange > 0,
+              value:
+                overview.countryRankChange < 0
+                  ? `Declined by ${Math.abs(
+                      overview.countryRankChange
+                    ).toLocaleString()} positions`
+                  : `Improved by ${Math.abs(
+                      overview.countryRankChange
+                    ).toLocaleString()} positions`,
+              isPositive: overview.countryRankChange > 0, // Positive change means rank improved (decreased)
             }}
           />
         </div>
@@ -190,18 +213,7 @@ export default function Dashboard() {
 
   return (
     <div className="p-4 space-y-4">
-      <Tabs defaultValue="one-medical" className="w-full">
-        <TabsList className="grid w-full grid-cols-2 max-w-[400px]">
-          <TabsTrigger value="one-medical">One Medical</TabsTrigger>
-          <TabsTrigger value="inspire-qa">Inspire QA</TabsTrigger>
-        </TabsList>
-        <TabsContent value="one-medical" className="mt-6">
-          {renderDashboardContent("one-medical")}
-        </TabsContent>
-        <TabsContent value="inspire-qa" className="mt-6">
-          {renderDashboardContent("inspire-qa")}
-        </TabsContent>
-      </Tabs>
+      {renderDashboardContent(project as string)}
     </div>
   );
 }
