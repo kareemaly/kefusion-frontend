@@ -3,7 +3,7 @@
 import React, { use } from "react";
 import { Globe, Users, Laptop, Smartphone, Search } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { StatCard } from "@kefusion/market-research";
+import { StatCard } from "@/components/use-cases/market-research/StatCard";
 import { VisitsChart } from "@/components/use-cases/market-research/VisitsChart";
 import { RankingChart } from "@/components/use-cases/market-research/RankingChart";
 import { TrafficSourcesPieChart } from "@/components/use-cases/market-research/TrafficSourcesPieChart";

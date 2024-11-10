@@ -19,25 +19,12 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"],
-      "@kefusion/market-research": ["../microapps/market-research/src"]
+      "@/*": ["./*"]
     },
     "baseUrl": ".",
     "composite": true,
     "declaration": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "../microapps/market-research/src/**/*.ts",
-    "../microapps/market-research/src/**/*.tsx"
-  ],
-  "references": [
-    {
-      "path": "../microapps/market-research"
-    }
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
