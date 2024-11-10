@@ -1,0 +1,323 @@
+{
+  "milestones": [
+    {
+      "id": 1,
+      "title": "Client Onboarding & Comprehensive Analysis",
+      "progress": 0,
+      "eta": {
+        "min": 2,
+        "max": 3
+      },
+      "deliverables": [
+        {
+          "title": "Business Market Research",
+          "status": "in_progress",
+          "icon": "Search",
+          "slug": "market-research",
+          "description": "Comprehensive analysis of the telehealth business market"
+        },
+        {
+          "title": "Setup Access & Agreement",
+          "status": "blocker",
+          "icon": "Settings",
+          "slug": "setup-access",
+          "description": "Setup access to Google Analytics, Facebook"
+        },
+        {
+          "title": "Competition Analysis",
+          "status": "pending",
+          "icon": "Users",
+          "slug": "competition-analysis",
+          "description": "Competitor analysis in the medical space"
+        },
+        {
+          "title": "SEO Keyword Analysis",
+          "status": "pending",
+          "icon": "Search",
+          "slug": "seo-analysis",
+          "description": "Identify search trends and opportunities"
+        },
+        {
+          "title": "Current Asset Review",
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "asset-review",
+          "description": "Analyze current digital assets and identify gaps"
+        },
+        {
+          "title": "Strategy Development",
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "strategy",
+          "description": "Create a foundational marketing strategy"
+        },
+        {
+          "title": "Communication Setup",
+          "status": "pending",
+          "icon": "MessageSquare",
+          "slug": "communication",
+          "description": "Establish project management and communication tools"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Branding & Content Creation",
+      "progress": 0,
+      "eta": {
+        "min": 4,
+        "max": 6
+      },
+      "deliverables": [
+        {
+          "title": "Brand Guidelines",
+          "status": "pending",
+          "icon": "Palette",
+          "slug": "brand-guidelines",
+          "description": "Develop comprehensive brand guidelines"
+        },
+        {
+          "title": "Content Strategy",
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "content-strategy",
+          "description": "Create content strategy and editorial calendar"
+        },
+        {
+          "title": "Visual Assets",
+          "status": "pending",
+          "icon": "Image",
+          "slug": "visual-assets",
+          "description": "Design key visual assets and templates"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-1"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Website & Landing Page Enhancement",
+      "progress": 0,
+      "eta": {
+        "min": 3,
+        "max": 5
+      },
+      "deliverables": [
+        {
+          "title": "UX Audit",
+          "status": "pending",
+          "icon": "Search",
+          "slug": "ux-audit",
+          "description": "Comprehensive UX analysis of current website"
+        },
+        {
+          "title": "Landing Page Optimization",
+          "status": "pending",
+          "icon": "Layout",
+          "slug": "landing-optimization",
+          "description": "Optimize conversion-focused landing pages"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-1"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-2"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Digital Marketing Campaigns",
+      "progress": 0,
+      "eta": {
+        "min": 4,
+        "max": 7
+      },
+      "deliverables": [
+        {
+          "title": "PPC Campaign Setup",
+          "status": "pending",
+          "icon": "MousePointer",
+          "slug": "ppc-setup",
+          "description": "Set up and launch PPC campaigns"
+        },
+        {
+          "title": "Social Media Strategy",
+          "status": "pending",
+          "icon": "Share2",
+          "slug": "social-strategy",
+          "description": "Develop social media marketing plan"
+        },
+        {
+          "title": "Email Marketing",
+          "status": "pending",
+          "icon": "Mail",
+          "slug": "email-marketing",
+          "description": "Create email marketing campaigns"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-1"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-2"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "SEO & Organic Growth Initiatives",
+      "progress": 0,
+      "eta": {
+        "min": 3,
+        "max": 6
+      },
+      "deliverables": [
+        {
+          "title": "Technical SEO",
+          "status": "pending",
+          "icon": "Code",
+          "slug": "technical-seo",
+          "description": "Implement technical SEO improvements"
+        },
+        {
+          "title": "Content Optimization",
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "content-optimization",
+          "description": "Optimize existing content for SEO"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-1"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-2"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Performance Tracking & Optimization",
+      "progress": 0,
+      "eta": {
+        "min": 2,
+        "max": 5
+      },
+      "deliverables": [
+        {
+          "title": "Analytics Dashboard",
+          "status": "pending",
+          "icon": "BarChart2",
+          "slug": "analytics-dashboard",
+          "description": "Set up comprehensive analytics dashboard"
+        },
+        {
+          "title": "Performance Reports",
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "performance-reports",
+          "description": "Create automated performance reports"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-1"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-2"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Scaling & Expansion",
+      "progress": 0,
+      "eta": {
+        "min": 3,
+        "max": 6
+      },
+      "deliverables": [
+        {
+          "title": "Market Expansion",
+          "status": "pending",
+          "icon": "Globe",
+          "slug": "market-expansion",
+          "description": "Plan for geographic market expansion"
+        },
+        {
+          "title": "Channel Growth",
+          "status": "pending",
+          "icon": "TrendingUp",
+          "slug": "channel-growth",
+          "description": "Identify new marketing channels"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-1"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Review & Long-Term Partnership",
+      "progress": 0,
+      "eta": {
+        "min": 2,
+        "max": 4
+      },
+      "deliverables": [
+        {
+          "title": "Performance Review",
+          "status": "pending",
+          "icon": "CheckSquare",
+          "slug": "performance-review",
+          "description": "Comprehensive campaign performance review"
+        },
+        {
+          "title": "Future Planning",
+          "status": "pending",
+          "icon": "Calendar",
+          "slug": "future-planning",
+          "description": "Long-term strategy and planning"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-1"
+        },
+        {
+          "status": "pending",
+          "icon": "FileText",
+          "slug": "placeholder-2"
+        }
+      ]
+    }
+  ]
+}

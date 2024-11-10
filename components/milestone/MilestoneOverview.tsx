@@ -6,41 +6,39 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { DeliverableSkeleton } from "./DeliverableSkeleton";
+import { MilestoneETA } from "./MilestoneETA";
 
 export interface Deliverable {
-  title: string;
-  status: "complete" | "blocker" | "pending";
+  title?: string;
+  status: "complete" | "blocker" | "pending" | "in_progress";
   icon: LucideIcon;
   slug: string;
-  description: string;
-}
-
-export interface PartialDeliverable
-  extends Omit<Deliverable, "title" | "description"> {
-  title?: string;
   description?: string;
 }
 
 export interface MilestoneOverviewProps {
-  title?: string;
-  description?: string;
-  progress?: number;
-  deliverables: PartialDeliverable[];
+  title: string;
+  progress: number;
+  deliverables: Deliverable[];
   basePath?: string;
   isLoading?: boolean;
   skeletonCount?: number;
-  milestoneNumber?: number;
+  milestoneNumber: number;
+  eta: {
+    min: number;
+    max?: number;
+  };
 }
 
 export function MilestoneOverview({
   title,
-  description,
   progress,
   deliverables,
   basePath = "",
   isLoading = false,
   skeletonCount = 6,
   milestoneNumber,
+  eta,
 }: MilestoneOverviewProps) {
   const router = useRouter();
 
@@ -49,7 +47,9 @@ export function MilestoneOverview({
       case "complete":
         return "text-success";
       case "blocker":
-        return "text-danger";
+        return "text-muted-foreground";
+      case "in_progress":
+        return "text-primary";
       case "pending":
         return "text-muted-foreground";
       default:
@@ -63,6 +63,8 @@ export function MilestoneOverview({
         return <CheckCircle className="h-5 w-5" />;
       case "blocker":
         return <AlertCircle className="h-5 w-5" />;
+      case "in_progress":
+        return <Circle className="h-5 w-5 animate-pulse" />;
       case "pending":
         return <Circle className="h-5 w-5" />;
       default:
@@ -70,14 +72,26 @@ export function MilestoneOverview({
     }
   };
 
+  const getStatusDisplay = (status: string) => {
+    switch (status) {
+      case "in_progress":
+        return "In Progress";
+      case "complete":
+        return "Complete";
+      case "blocker":
+        return "Blocker";
+      case "pending":
+        return "Pending";
+      default:
+        return status.charAt(0).toUpperCase() + status.slice(1);
+    }
+  };
+
   const handleDeliverableClick = (slug: string) => {
     router.push(`${basePath}/${slug}`);
   };
 
-  const renderDeliverable = (
-    deliverable: PartialDeliverable,
-    index: number
-  ) => {
+  const renderDeliverable = (deliverable: Deliverable, index: number) => {
     if (!deliverable.title && !deliverable.description) {
       return <DeliverableSkeleton key={index} />;
     }
@@ -94,11 +108,13 @@ export function MilestoneOverview({
               ? "bg-success-muted border-success/20"
               : deliverable.status === "pending"
               ? "bg-muted border-border"
+              : deliverable.status === "in_progress"
+              ? "bg-primary/5 border-primary/20"
               : "bg-card border-border"
           }
           ${
             deliverable.status === "blocker"
-              ? "bg-danger-muted border-danger/20"
+              ? "bg-muted border-muted-foreground/20"
               : ""
           }
           transition-all duration-200
@@ -157,14 +173,13 @@ export function MilestoneOverview({
                   ? "bg-success-muted text-success-foreground"
                   : deliverable.status === "blocker"
                   ? "bg-danger-muted text-danger-foreground"
+                  : deliverable.status === "in_progress"
+                  ? "bg-primary/10 text-primary"
                   : "bg-muted text-muted-foreground"
               }
             `}
           >
-            <span>
-              {deliverable.status.charAt(0).toUpperCase() +
-                deliverable.status.slice(1)}
-            </span>
+            <span>{getStatusDisplay(deliverable.status)}</span>
             <span className="flex items-center">
               {getStatusIcon(deliverable.status)}
             </span>
@@ -213,53 +228,21 @@ export function MilestoneOverview({
   }
 
   return (
-    <Card className="w-full relative overflow-hidden">
-      {milestoneNumber && (
-        <div className="absolute -left-8 top-0 w-32 h-32 opacity-5">
-          <div className="w-full h-full flex items-center justify-center text-[80px] font-bold rotate-[-12deg] text-foreground">
-            {milestoneNumber}
-          </div>
-        </div>
-      )}
-
+    <Card className="w-full relative overflow-visible">
       <CardHeader>
-        <div className="flex items-start gap-6">
-          {milestoneNumber && (
-            <div className="w-16 h-16 flex-shrink-0">
-              <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
-                <span className="text-3xl font-bold text-primary">
-                  {milestoneNumber}
-                </span>
-              </div>
-            </div>
-          )}
-
-          <div className="flex-grow">
-            <CardTitle className="text-2xl flex justify-between items-center">
-              {title ? (
-                <span className="text-card-foreground">{title}</span>
-              ) : (
-                <div className="h-8 w-1/3 bg-muted rounded animate-pulse" />
-              )}
-              {progress !== undefined ? (
-                <span className="text-lg font-normal text-muted-foreground">
-                  {progress}% Complete
-                </span>
-              ) : (
-                <div className="h-6 w-24 bg-muted rounded animate-pulse" />
-              )}
+        <div className="flex items-center justify-between relative pt-4">
+          <div className="space-y-1">
+            <CardTitle className="text-2xl">
+              Milestone {milestoneNumber}: {title}
             </CardTitle>
-            {progress !== undefined ? (
-              <Progress value={progress} className="mt-2" />
-            ) : (
-              <div className="mt-2 h-4 bg-muted rounded animate-pulse" />
-            )}
-            {description && (
-              <p className="text-sm text-muted-foreground mt-2">
-                {description}
-              </p>
-            )}
+            <div className="flex items-center gap-4">
+              <Progress value={progress} className="w-[60%]" />
+              <span className="text-sm text-muted-foreground">
+                {progress}% complete
+              </span>
+            </div>
           </div>
+          <MilestoneETA eta={eta} />
         </div>
       </CardHeader>
 
