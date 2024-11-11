@@ -18,6 +18,7 @@ export interface Deliverable {
 
 export interface MilestoneOverviewProps {
   title: string;
+  subHeading?: string;
   progress: number;
   deliverables: Deliverable[];
   basePath?: string;
@@ -32,6 +33,7 @@ export interface MilestoneOverviewProps {
 
 export function MilestoneOverview({
   title,
+  subHeading,
   progress,
   deliverables,
   basePath = "",
@@ -241,6 +243,11 @@ export function MilestoneOverview({
                 {progress}% complete
               </span>
             </div>
+            {subHeading && (
+              <p className="text-muted-foreground text-sm mt-2">
+                {subHeading}
+              </p>
+            )}
           </div>
           <MilestoneETA eta={eta} />
         </div>

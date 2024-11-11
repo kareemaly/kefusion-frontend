@@ -6,9 +6,6 @@ const nextConfig: NextConfig = {
     // Add support for importing from outside the app directory
     config.resolve.alias = {
       ...config.resolve.alias,
-      "@kefusion/market-research": require.resolve(
-        "/Users/kareemelbahrawy/ai/microapps/market-research"
-      ),
     };
 
     return config;

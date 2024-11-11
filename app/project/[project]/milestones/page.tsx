@@ -76,6 +76,7 @@ export default function OneMedicalMilestone() {
             <motion.div key={milestone.id} variants={item} className="w-full">
               <MilestoneOverview
                 title={milestone.data.title}
+                subHeading={milestone.data.subHeading}
                 progress={milestone.data.progress}
                 deliverables={milestone.data.deliverables}
                 basePath={`/project/one-medical/milestone${milestone.id}`}

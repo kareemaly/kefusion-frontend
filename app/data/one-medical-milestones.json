@@ -3,7 +3,8 @@
     {
       "id": 1,
       "title": "Client Onboarding & Comprehensive Analysis",
-      "progress": 0,
+      "progress": 10,
+      "subHeading": "Objective: Establish a strong foundational understanding of the telehealth industry, set up essential tools, and create a foundational strategy for digital marketing and brand positioning.",
       "eta": {
         "min": 2,
         "max": 3
@@ -14,7 +15,13 @@
           "status": "in_progress",
           "icon": "Search",
           "slug": "market-research",
-          "description": "Comprehensive analysis of the telehealth business market"
+          "description": "Comprehensive analysis of the telehealth business market",
+          "tooltip": {
+            "action": "Conduct in-depth research on the Australian telehealth industry to identify trends, key players, market growth, and regulatory environment.",
+            "tools": "Use platforms like SimilarWeb, Statista, BigQuery and Google Trends.",
+            "deliverable": "Market Research Report detailing industry landscape, growth projections, consumer trends, and a summary of regulations affecting telehealth.",
+            "progressTracking": "Review weekly progress by assessing insights gathered and ensure the report is on track for end-of-month delivery."
+          }
         },
         {
           "title": "Setup Access & Agreement",
@@ -64,6 +71,7 @@
       "id": 2,
       "title": "Branding & Content Creation",
       "progress": 0,
+      "subHeading": "Objective: Develop a cohesive brand identity and create compelling content strategy to establish a strong market presence in the telehealth space.",
       "eta": {
         "min": 4,
         "max": 6
@@ -106,6 +114,7 @@
       "id": 3,
       "title": "Website & Landing Page Enhancement",
       "progress": 0,
+      "subHeading": "Objective: Optimize website performance and user experience to improve conversion rates and enhance patient engagement across all digital touchpoints.",
       "eta": {
         "min": 3,
         "max": 5
@@ -141,6 +150,7 @@
       "id": 4,
       "title": "Digital Marketing Campaigns",
       "progress": 0,
+      "subHeading": "Objective: Design and implement comprehensive digital marketing campaigns to increase brand visibility and patient acquisition across multiple channels.",
       "eta": {
         "min": 4,
         "max": 7
@@ -183,6 +193,7 @@
       "id": 5,
       "title": "SEO & Organic Growth Initiatives",
       "progress": 0,
+      "subHeading": "Objective: Implement strategic SEO optimizations and organic growth initiatives to improve search rankings and drive sustainable traffic growth.",
       "eta": {
         "min": 3,
         "max": 6
@@ -218,6 +229,7 @@
       "id": 6,
       "title": "Performance Tracking & Optimization",
       "progress": 0,
+      "subHeading": "Objective: Establish comprehensive performance monitoring systems and implement data-driven optimizations to maximize marketing ROI.",
       "eta": {
         "min": 2,
         "max": 5
@@ -253,6 +265,7 @@
       "id": 7,
       "title": "Scaling & Expansion",
       "progress": 0,
+      "subHeading": "Objective: Develop and execute strategic plans for market expansion and channel diversification to drive sustainable business growth.",
       "eta": {
         "min": 3,
         "max": 6
@@ -288,6 +301,7 @@
       "id": 8,
       "title": "Review & Long-Term Partnership",
       "progress": 0,
+      "subHeading": "Objective: Conduct comprehensive performance analysis and establish long-term strategic planning for sustained growth and partnership.",
       "eta": {
         "min": 2,
         "max": 4
